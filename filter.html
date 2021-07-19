@@ -27,7 +27,7 @@
                 <input class="form-control form-control-lg its-input" type="text" placeholder="Search...">
             </div>
             <div class="col-2">
-                <a type="button" href="filter.html" class="btn its-filter-btn" ><i class="bi-funnel"></i></a>
+                <a type="button" href="index.html" class="btn its-filter-btn"><i class="bi-funnel"></i></a>
             </div>
         </div>
         <div class="its-categories mt-2 p-1">
@@ -35,6 +35,52 @@
             <button type="button" class="btn its-category-btn">Consigliate</button>
             <button type="button" class="btn its-category-btn">Più visitate</button>
             <button type="button" class="btn its-category-btn">Valutate positivamente</button>
+        </div>
+
+        <div class="mt-2">
+            <h5>Regione</h5>
+            <select class="form-select">
+                <option selected>-</option>
+                <option>Regione 1</option>
+                <option>Regione 2</option>
+            </select>
+        </div>
+        <div class="mt-2">
+            <h5>Località</h5>
+            <select class="form-select">
+                <option selected>-</option>
+                <option>Località 1</option>
+                <option>Località 2</option>
+            </select>
+        </div>
+        <div class="mt-2">
+            <h5>Tipo di interesse</h5>
+            <div class="its-checkbox-group">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Storico
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Paesaggistico
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Artistico
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Cultura
+                    </label>
+                </div>
+            </div>
         </div>
     </div>
     <div class="m-3">
@@ -93,19 +139,27 @@
     <div class="its-tab">
         <button class="btn">
             <div class="row d-flex justify-content-center"><i class="bi-house"></i></div>
-            <div class="row d-flex justify-content-center"><p>Home</p></div>
+            <div class="row d-flex justify-content-center">
+                <p>Home</p>
+            </div>
         </button>
         <button class="btn">
             <div class="row d-flex justify-content-center"><i class="bi-card-text"></i></div>
-            <div class="row d-flex justify-content-center"><p>Biglietti</p></div>
+            <div class="row d-flex justify-content-center">
+                <p>Biglietti</p>
+            </div>
         </button>
         <button class="btn">
             <div class="row d-flex justify-content-center"><i class="bi-heart"></i></div>
-            <div class="row d-flex justify-content-center"><p>Preferiti</p></div>
+            <div class="row d-flex justify-content-center">
+                <p>Preferiti</p>
+            </div>
         </button>
         <button class="btn">
             <div class="row d-flex justify-content-center"><i class="bi-person"></i></div>
-            <div class="row d-flex justify-content-center"><p>Profilo</p></div>
+            <div class="row d-flex justify-content-center">
+                <p>Profilo</p>
+            </div>
         </button>
     </div>
 
