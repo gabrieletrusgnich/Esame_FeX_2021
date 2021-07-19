@@ -1,3 +1,97 @@
-.mybutton{
-    background-color: red;
+body{
+    background-color: #F8F8F8;
+}
+
+.its-card{
+    border-radius: 30px;
+    border: none;
+}
+
+.its-card-image{
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.its-card-text{
+    font-weight: 500;
+}
+
+.its-favourite-icon{
+    font-size: 2rem;
+    color: #FF9700;
+}
+
+.its-rating-active{
+    color: #FF9700;
+}
+
+.its-rating{
+    color: #DCDCDC;
+}
+
+.its-nav{
+   background-color: #F8F8F8;
+  
+   margin-bottom: 1rem;
+   border-bottom: 1px solid rgb(214, 214, 214);
+}
+
+.its-filter-btn{
+    border: 1px solid #FF9700;
+}
+
+.its-filter-btn>i{
+    color: #FF9700;
+}
+
+.its-filter-btn:active{
+    background-color: #FF9700;
+    border:1px solid #FF9700;
+    color: white;
+}
+
+.its-filter-btn:active>i{
+    color: white;
+}
+
+.its-filter-btn:hover{
+    background-color: #FF9700;
+    border:1px solid #FF9700;
+    color: white;
+}
+
+.its-filter-btn:hover>i{
+    color: white;
+}
+
+.its-categories{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    overflow-x: scroll;
+}
+
+.its-category-btn:active{
+    background-color: #FF9700;
+    border:1px solid #FF9700;
+    border-radius: 13px;
+    color: white;
+}
+.its-category-btn:hover{
+    background-color: #FF9700;
+    border:1px solid #FF9700;
+    border-radius: 13px;
+    color: white;
+}
+
+.its-category-btn{
+    background-color: transparent;
+    border-radius: 13px;
+    color: rgb(61, 61, 61);
+}
+
+
+
+.its-input{
+    background-color: transparent;
 }
