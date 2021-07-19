@@ -1,19 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- CSS <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
-    <!-- JS  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- <link rel="stylesheet" href="styles/bootstrap.min.css"> -->
     <link rel="stylesheet" href="styles/style.css">
 
     <title>Esame</title>
 </head>
+
 <body>
-    
+    <div class="sticky-top its-nav w-100 p-3">
+        <h1>Home</h1>
+        <div class="row">
+            <div class="col-10">
+                <input class="form-control form-control-lg its-input" type="text" placeholder="Search...">
+            </div>
+            <div class="col-2">
+                <button type="button" class="btn its-filter-btn"><i class="bi-funnel"></i></button>
+            </div>
+        </div>
+        <div class="its-categories mt-2 p-1">
+            <button type="button" class="btn its-category-btn">Tutto</button>
+            <button type="button" class="btn its-category-btn">Consigliate</button>
+            <button type="button" class="btn its-category-btn">Più visitate</button>
+            <button type="button" class="btn its-category-btn">Valutate positivamente</button>
+        </div>
+    </div>
+    <div class="m-3">
+        <div class="card w-100 its-card shadow mb-3">
+            <img class="its-card-image" src="assets/placeholder-vertical.jpg" alt="Il colosseo">
+            <div class="card-body">
+                <div class="w-100 mb-2 d-flex justify-content-between align-items-center">
+                    <h2>Colosseo</h2>
+                    <div>
+                        <i class="bi-star-fill its-rating-active"></i>
+                        <i class="bi-star-fill its-rating-active"></i>
+                        <i class="bi-star-fill its-rating-active"></i>
+                        <i class="bi-star-fill its-rating-active"></i>
+                        <i class="bi-star its-rating"></i>
+                    </div>
+                </div>
+                <p class="its-card-text"><i class="bi-geo-alt mr-1"></i> Roma, Lazio</p>
+                <p class="its-card-text"><i class="bi-calendar mr-1"></i> Aperto tutto l'anno</p>
+                <p class="its-card-text"><i class="bi-compass mr-1"></i> Storico e paesaggistico</p>
+                <p class="its-card-text"><i class="bi-clock mr-1"></i> Durata media tour: 1h 10min</p>
+                <div class="w-100 d-flex justify-content-between align-items-center">
+                    <div>
+                        <span class="badge rounded-pill bg-success">Aperto 9:00-20:00</span>
+                    </div>
+                    <i class="bi-heart-fill its-favourite-icon"></i>
+                </div>
+            </div>
+        </div>
+        <div class="card w-100 its-card shadow mb-3">
+            <img class="its-card-image" src="assets/placeholder-vertical.jpg" alt="Il colosseo">
+            <div class="card-body">
+                <div class="w-100 mb-2 d-flex justify-content-between align-items-center">
+                    <h2>Colosseo</h2>
+                    <div>
+                        <i class="bi-star-fill its-rating-active"></i>
+                        <i class="bi-star-fill its-rating-active"></i>
+                        <i class="bi-star-fill its-rating-active"></i>
+                        <i class="bi-star-fill its-rating-active"></i>
+                        <i class="bi-star its-rating"></i>
+                    </div>
+                </div>
+                <p class="its-card-text"><i class="bi-geo-alt mr-1"></i> Roma, Lazio</p>
+                <p class="its-card-text"><i class="bi-calendar mr-1"></i> Aperto tutto l'anno</p>
+                <p class="its-card-text"><i class="bi-compass mr-1"></i> Storico e paesaggistico</p>
+                <p class="its-card-text"><i class="bi-clock mr-1"></i> Durata media tour: 1h 10min</p>
+                <div class="w-100 d-flex justify-content-between align-items-center">
+                    <div>
+                        <span class="badge rounded-pill bg-success">Aperto 9:00-20:00</span>
+                    </div>
+                    <i class="bi-heart-fill its-favourite-icon"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 </body>
+
 </html>
